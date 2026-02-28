@@ -146,13 +146,11 @@ CampUs/
 
 ## 📸 Screenshots
 
-> Add images inside a `/screenshots` folder
-
 ```markdown
-![SignIn](./screenshots/Signin.png)
-![Home](./screenshots/Home.png)
-![Canteen](./screenshots/Canteen.png)
-![Map](./screenshots/Map.png)
+![SignIn](E:\CampUs\screenshots\Signin.png)
+![Home](E:\CampUs\screenshots\Home.png)
+![Canteen](E:\CampUs\screenshots\Canteen.png)
+![Map](E:\CampUs\screenshots\Map.png)
 ```
 
 ---
@@ -173,15 +171,6 @@ CampUs is designed to evolve with the campus.
 
 **Code Beasts**  
 Building smarter digital ecosystems for modern campuses.
-
----
-
-## 📬 Contact
-
-For queries or collaboration:
-
-📧 Your Email  
-🔗 GitHub: https://github.com/nikitaMishr  
 
 ---
 
