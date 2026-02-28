@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://YOUR_NETLIFY_LINK" target="_blank">
+  <a href="https://campus-codebeasts.netlify.app/" target="_blank">
     🌐 <strong>Live Demo</strong>
   </a>
 </p>
