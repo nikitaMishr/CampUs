@@ -146,12 +146,10 @@ CampUs/
 
 ## 📸 Screenshots
 
-```markdown
-![SignIn](E:\CampUs\screenshots\Signin.png)
-![Home](E:\CampUs\screenshots\Home.png)
-![Canteen](E:\CampUs\screenshots\Canteen.png)
-![Map](E:\CampUs\screenshots\Map.png)
-```
+![Sign In](./screenshots/Signin.png)
+![Home](./screenshots/Home.png)
+![Canteen](./screenshots/Canteen.png)
+![Map](./screenshots/Map.png)
 
 ---
 
