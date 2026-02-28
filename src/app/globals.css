@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Palette: #EA7B7B, #D25353, #9E3B3B, #FFEAD3 */
+    --background: 32 100% 91%; /* #FFEAD3 */
+    --foreground: 0 46% 43%; /* #9E3B3B */
+    --card: 0 0% 100%;
+    --card-foreground: 0 46% 43%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 46% 43%;
+    --primary: 0 59% 58%; /* #D25353 */
+    --primary-foreground: 32 100% 91%;
+    --secondary: 0 75% 70% / 0.1; /* #EA7B7B with opacity */
+    --secondary-foreground: 0 46% 43%;
+    --muted: 32 100% 85%;
+    --muted-foreground: 0 46% 55%;
+    --accent: 0 75% 70%; /* #EA7B7B */
+    --accent-foreground: 0 46% 43%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 32 100% 91%;
+    --border: 0 46% 43% / 0.15;
+    --input: 0 46% 43% / 0.1;
+    --ring: 0 59% 58%;
+    --radius: 2.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply text-foreground font-body antialiased relative min-h-screen bg-fixed bg-cover bg-center bg-no-repeat;
+    /* Reduced overlay opacity to make the background image pop while remaining readable */
+    background-image: linear-gradient(rgba(255, 234, 211, 0.35), rgba(255, 234, 211, 0.35)), url('https://i.postimg.cc/k4hqh6h3/BG.jpg');
+  }
+  /* Hide cursor globally when custom cursor is active */
+  .cursor-none * {
+    cursor: none !important;
+  }
+}
+
+.minimal-soothing-bg {
+  min-height: 100vh;
+}
+
+.glass-card {
+  @apply bg-white/60 backdrop-blur-2xl border border-white/40 transition-all duration-700;
+}
+
+.glass-card:hover {
+  @apply bg-white/80;
+  transform: translateY(-6px);
+}
+
+.campus-bg {
+  @apply bg-transparent;
+}
+
+.neon-glow {
+  box-shadow: 0 0 25px -5px hsla(var(--primary) / 0.2);
+}
+
+.soothing-shadow {
+  box-shadow: 0 25px 50px -12px rgba(158, 59, 59, 0.08);
+}
+
+.red-glow-shadow {
+  /* Significantly intensified red glow shadows as requested */
+  box-shadow: 0 15px 35px -5px rgba(234, 123, 123, 0.65), 0 5px 15px -3px rgba(234, 123, 123, 0.45);
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.red-glow-shadow:hover {
+  box-shadow: 0 25px 50px -8px rgba(234, 123, 123, 0.8), 0 10px 25px -5px rgba(234, 123, 123, 0.6);
+}
+
+@keyframes pulse-neon {
+  0%, 100% { 
+    opacity: 1; 
+    transform: scale(1);
+    filter: drop-shadow(0 0 5px hsla(var(--primary) / 0.2));
+  }
+  50% { 
+    opacity: 0.9; 
+    transform: scale(1.02);
+    filter: drop-shadow(0 0 15px hsla(var(--primary) / 0.4));
+  }
+}
+
+.animate-pulse-neon {
+  animation: pulse-neon 4s ease-in-out infinite;
+}

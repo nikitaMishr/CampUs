@@ -1,0 +1,34 @@
+{
+  "placeholderImages": [
+    {
+      "id": "campus-logo",
+      "description": "The official CampUs logo",
+      "imageUrl": "https://i.postimg.cc/J4CxCpKT/Camp-Us-logo-OG.png",
+      "imageHint": "campus logo"
+    },
+    {
+      "id": "campus-bg",
+      "description": "The Intelligent Smart Campus Hub Background",
+      "imageUrl": "https://i.postimg.cc/k4hqh6h3/BG.jpg",
+      "imageHint": "campus background"
+    },
+    {
+      "id": "food-card",
+      "description": "Artistic shot of a healthy bowl",
+      "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "imageHint": "healthy bowl"
+    },
+    {
+      "id": "fix-card",
+      "description": "Soothing repair service",
+      "imageUrl": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "imageHint": "maintenance engineer"
+    },
+    {
+      "id": "lotus-logo",
+      "description": "Lotus flower illustration",
+      "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "imageHint": "lotus flower"
+    }
+  ]
+}
